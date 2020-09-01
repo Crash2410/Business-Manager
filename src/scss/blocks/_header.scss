@@ -1,0 +1,31 @@
+.header {
+  height: 85px;
+  padding: 19px 0 19px 0;
+  display: flex;
+  justify-content: space-between;
+
+  &__contacts {
+    max-width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+
+    img {
+      width: 28px;
+      height: 21px;
+    }
+  }
+
+  &__descr {
+    padding-left: 11px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #242424;
+
+    span {
+        line-height: 14px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+}

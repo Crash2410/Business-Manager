@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+
+  &__item {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  &__link {
+    text-decoration-style: none;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    &:hover {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}
