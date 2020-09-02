@@ -1,15 +1,15 @@
 .slider {
-  width: 320px;
-  padding-top: 27px;
-
-  &__inner {
-    width: 1150px;
-    height: 560px;
-  }
+  width: 100%;
+  min-height: 250px;
+  margin-top: 27px;
 
   &__item {
+    min-height: 300px;
     display: flex;
     justify-content: space-between;
+  }
+  img {
+    align-self: flex-end;
   }
 
   &__descr {

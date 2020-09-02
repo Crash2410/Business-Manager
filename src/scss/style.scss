@@ -8,9 +8,16 @@
   margin: 0 auto;
 }
 
+.hamburger{
+  display: none;
+}
+
 @import "blocks/header";
 @import "blocks/promo";
-@import "blocks/menu";
+@import "blocks/navigation";
 @import "blocks/slider";
 @import 'blocks/buttons';
 @import 'blocks/dignity';
+
+
+@import "base/media";
