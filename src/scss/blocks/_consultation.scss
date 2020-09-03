@@ -1,0 +1,14 @@
+.consultation {
+  height: 690px;
+  padding: 80px 0 80px 0;
+  &__img {
+    width: 302px;
+    height: 302px;
+    margin: 0 auto;
+    margin-bottom: 74px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

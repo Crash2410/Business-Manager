@@ -1,0 +1,70 @@
+.footer {
+  padding: 49px 0 40px;
+  min-height: 497px;
+  background-color: #0083a1;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    &_1 {
+      width: 377px;
+    }
+
+    &_2 {
+      width: 263px;
+    }
+    &_3 {
+      width: 177px;
+    }
+
+    &_4 {
+      width: 111px;
+    }
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  &__descr {
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+
+  &__logo {
+    margin-top: 20px;
+  }
+
+  &__menu {
+    list-style: none;
+    padding-left: 0;
+
+    &_links {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 300;
+      color: #ffffff;
+      text-decoration: none;
+
+      &:hover {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__license {
+    font-size: 13px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top:  36px;
+    text-align: center;
+  }
+}

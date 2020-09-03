@@ -1,0 +1,49 @@
+.solutions {
+  padding-top: 79px;
+  background: url("../../img/backgrounds/background_4.jpg") center
+    (center/cover) no-repeat;
+  min-height: 889px;
+
+  &__tabs {
+    padding-left: 0;
+    width: 843px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    margin: 25px auto 0 auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &__tab {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 49px;
+    padding: 0 25px 0 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    transition: 0.6s all;
+    border-right: 1px solid #8ba3a9;
+
+    &:nth-last-child(1) {
+      border-right: none;
+    }
+
+    &:hover {
+      font-weight: 700;
+      color: #00c2f0;
+      cursor: pointer;
+    }
+  }
+
+  &__content{
+    display: none;
+
+    &_active{
+        display: block;
+    }
+  }
+}

@@ -10,6 +10,10 @@
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
-  
   outline: none !important;
+
+  &_consultation {
+    display: block;
+    margin: 30px auto 0 auto;
+  }
 }

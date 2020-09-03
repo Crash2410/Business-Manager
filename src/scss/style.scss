@@ -1,6 +1,5 @@
 * {
   font-family: "Roboto", sans-serif;
-  
 }
 
 .container {
@@ -8,7 +7,7 @@
   margin: 0 auto;
 }
 
-.hamburger{
+.hamburger {
   display: none;
 }
 
@@ -16,8 +15,14 @@
 @import "blocks/promo";
 @import "blocks/navigation";
 @import "blocks/slider";
-@import 'blocks/buttons';
-@import 'blocks/dignity';
-
+@import "blocks/buttons";
+@import "blocks/dignity";
+@import "blocks/titles";
+@import "blocks/solutions";
+@import 'blocks/advantages';
+@import 'blocks/data';
+@import 'blocks/consultation';
+@import "blocks/lines";
+@import "blocks/footer";
 
 @import "base/media";

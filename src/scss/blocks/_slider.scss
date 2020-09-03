@@ -106,4 +106,37 @@
       }
     }
   }
+
+  &__solutions {
+    width: 947px;
+    margin: 0 auto;
+    margin-top: 44px;
+
+    img{
+      width: 100%;
+    }
+
+
+    .slick-slide {
+      display: block;
+      outline: none !important;
+    }
+
+    .slick-prev,
+    .slick-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -5%;
+      border: none;
+      background: rgba($color: white, $alpha: 0);
+      outline: none;
+      z-index: 1;
+    }
+
+    .slick-next {
+      left: auto;
+      right: -5%;
+    }
+  }
 }
