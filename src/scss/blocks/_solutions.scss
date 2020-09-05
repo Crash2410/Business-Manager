@@ -2,12 +2,13 @@
   padding-top: 79px;
   background: url("../../img/backgrounds/background_4.jpg") center
     (center/cover) no-repeat;
-  min-height: 889px;
+  max-height: 889px;
+  min-height: 689px;
 
   &__tabs {
     padding-left: 0;
-    width: 843px;
-    height: 64px;
+    max-width: 843px;
+    min-height: 64px;
     border-radius: 5px;
     border: 1px solid #ffffff;
     margin: 25px auto 0 auto;
@@ -39,11 +40,11 @@
     }
   }
 
-  &__content{
+  &__content {
     display: none;
 
-    &_active{
-        display: block;
+    &_active {
+      display: block;
     }
   }
 }

@@ -55,10 +55,11 @@ $(document).ready(function () {
       '<button type="button" class="slick-next" aria-label="Next"><img src="./icons/arrow_left.png" alt=""></button>',
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 768,
         settings: {
           arrows: false,
           draggable: false,
+          dots: true,
         },
       },
     ],

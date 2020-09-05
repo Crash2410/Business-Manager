@@ -1,14 +1,21 @@
 .data {
   background: url(../../img/backgrounds/background_5.jpg) center (center/cover)
     no-repeat;
-  height: 580px;
+  min-height: 580px;
+  max-height: 860px;
   padding-top: 75px;
+  padding-bottom: 40px;
 
   &__wrapper {
-    margin-top: 128px;
-    width: 1127px;
+    max-width: 1127px;
     display: flex;
-    justify-content: space-between;
+    margin: 128px auto 0 auto;
+  }
+
+  &__wrapper > div{
+    &:nth-child(2){
+      margin-left: 165px;
+    }
   }
 
   &__item {
