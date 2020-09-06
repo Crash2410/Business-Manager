@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business management</title>
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
@@ -64,10 +67,10 @@
         </div>
     </head>
 
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <nav class="navigation">
-                <img src="./icons/logo.png" alt="Logo">
+                <img src="./icons/logo.svg" alt="Logo">
 
                 <ul class="menu">
                     <li class="menu_item"><a class="menu_link" href="#">главная</a> </li>
@@ -160,33 +163,33 @@
     <section class="dignity">
         <div class="container">
             <div class="dignity__wrapper">
-                <div class="dignity__item">
+                <div data-aos="zoom-in" data-aos-duration="600" class="dignity__item">
                     <img src="./icons/dignity/icon_1.jpg" alt="">
                     <div class="dignity__descr">Нет оперативности
                         в принятии решений?</div>
                 </div>
-                <div class="dignity__item">
+                <div data-aos="zoom-in" data-aos-duration="600" class="dignity__item">
                     <img src="./icons/dignity/icon_2.jpg" alt="">
                     <div class="dignity__descr">Нет учета и контроля обслуживания?</div>
                 </div>
-                <div class="dignity__item">
+                <div data-aos="zoom-in" data-aos-duration="600" class="dignity__item">
                     <img src="./icons/dignity/icon_3.jpg" alt="">
                     <div class="dignity__descr">Сложно строить прогнозы и анализировать данные?</div>
                 </div>
             </div>
-            <img src="./icons/dignity/arrows.png" alt="">
-            <div class="dignity__title">С PRENGI</div>
+            <img data-aos="zoom-in" data-aos-duration="600" src="./icons/dignity/arrows.png" alt="">
+            <div data-aos="zoom-in" data-aos-duration="600" class="dignity__title">С PRENGI</div>
             <div class="dignity__wrapper">
-                <div class="dignity__item dignity__item_bg">
+                <div data-aos="zoom-in" data-aos-duration="600" class="dignity__item dignity__item_bg">
                     <img src="./icons/dignity/icon_4.jpg" alt="">
                     <div class="dignity__descr"><span>Все затраты спланированы
                             и расписаны</span></div>
                 </div>
-                <div class="dignity__item dignity__item_bg">
+                <div data-aos="zoom-in" data-aos-duration="600" class="dignity__item dignity__item_bg">
                     <img src="./icons/dignity/icon_5.jpg" alt="">
                     <div class="dignity__descr"><span>Корректная аналитика данных online</span></div>
                 </div>
-                <div class="dignity__item dignity__item_bg">
+                <div data-aos="zoom-in" data-aos-duration="600" class="dignity__item dignity__item_bg">
                     <img src="./icons/dignity/icon_6.jpg" alt="">
                     <div class="dignity__descr"><span>Простая интеграция с любым Вашим ПО</span></div>
                 </div>
@@ -197,10 +200,10 @@
     <section class="solutions">
         <div class="container">
 
-            <h1 class="title">Prengi предоставляет экспертные решения
+            <h1 data-aos="zoom-in" data-aos-duration="600" class="title">Prengi предоставляет экспертные решения
                 для Вашей отрасли</h1>
 
-            <ul class="solutions__tabs">
+            <ul data-aos="fade-up" data-aos-duration="600" class="solutions__tabs">
                 <li class="solutions__tab solutions__tab_active">
                     <div>Prengi Production</div>
                 </li>
@@ -223,7 +226,8 @@
 
 
             <div class="solutions__content solutions__content_active">
-                <div class="solutions-item">
+                <div data-aos="zoom-in" data-aos-duration="600" class="solutions-item animate__animated animate__fadeIn"
+                    data-wow-duration="2s">
                     <div class="slider__solutions">
                         <div><img src="./img/slider/laptop.png" alt=""></div>
                         <div><img src="./img/slider/laptop.png" alt=""></div>
@@ -233,60 +237,70 @@
             </div>
 
             <div class="solutions__content">
-                <div class="title"> YOU CONTENT 2</div>
+                <div class="solutions-item animate__animated animate__fadeIn">
+                    <div class="title"> YOU CONTENT 2</div>
+                </div>
             </div>
 
             <div class="solutions__content">
-                <div class="title"> YOU CONTENT 3</div>
+                <div class="solutions-item animate__animated animate__fadeIn">
+                    <div class="title"> YOU CONTENT 3</div>
+                </div>
             </div>
 
             <div class="solutions__content">
-                <div class="title"> YOU CONTENT 4</div>
+                <div class="solutions-item animate__animated animate__fadeIn">
+                    <div class="title"> YOU CONTENT 4</div>
+                </div>
             </div>
 
             <div class="solutions__content">
-                <div class="title"> YOU CONTENT 5</div>
+                <div class="solutions-item animate__animated animate__fadeIn">
+                    <div class="title"> YOU CONTENT 5</div>
+                </div>
             </div>
 
             <div class="solutions__content">
-                <div class="title"> YOU CONTENT 6</div>
+                <div class="solutions-item animate__animated animate__fadeIn">
+                    <div class="title"> YOU CONTENT 6</div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="advantages">
         <div class="container">
-            <h2 class="title title_black title_wh">Преимущества Prengi для
+            <h2 data-aos="zoom-in" data-aos-duration="600" class="title title_black title_wh">Преимущества Prengi для
                 Вашей отрасли
             </h2>
 
             <div class="advantages__wrapper">
-                <div class="advantages__item advantages__item_bg_1">
+                <div data-aos="fade-in" data-aos-duration="600" class="advantages__item advantages__item_bg_1">
                     <div class="advantages__descr">
                         <span>Возможность внедрения и тестирования в реальном времени</span>
                     </div>
                 </div>
-                <div class="advantages__item advantages__item_bg_2">
+                <div data-aos="fade-in" data-aos-duration="600" class="advantages__item advantages__item_bg_2">
                     <div class="advantages__descr">
                         <span>Система “Intellect”, учет уровня доступов</span>
                     </div>
                 </div>
-                <div class="advantages__item advantages__item_bg_3">
+                <div data-aos="fade-in" data-aos-duration="600" class="advantages__item advantages__item_bg_3">
                     <div class="advantages__descr">
                         <span>Возможность использовать из любой точки мира с любого устройства</span>
                     </div>
                 </div>
-                <div class="advantages__item advantages__item_bg_4">
+                <div data-aos="fade-in" data-aos-duration="600" class="advantages__item advantages__item_bg_4">
                     <div class="advantages__descr">
                         <span>Нет необходимости установки и стационарной работы программиста</span>
                     </div>
                 </div>
-                <div class="advantages__item advantages__item_bg_5">
+                <div data-aos="fade-in" data-aos-duration="600" class="advantages__item advantages__item_bg_5">
                     <div class="advantages__descr">
                         <span>“Живые” бизнес-процессы</span>
                     </div>
                 </div>
-                <div class="advantages__item advantages__item_bg_6">
+                <div data-aos="fade-in" data-aos-duration="600" class="advantages__item advantages__item_bg_6">
                     <div class="advantages__descr">
                         <span>Никаких предоплат, оплата после старта</span>
                     </div>
@@ -297,19 +311,19 @@
 
     <section class="data">
         <div class="container">
-            <h2 class="title title_white title_wh">Варианты развертывания
+            <h2 data-aos="zoom-in" data-aos-duration="600" class="title title_white title_wh">Варианты развертывания
                 Ваших данных
             </h2>
 
             <div class="data__wrapper">
-                <div class="data__item">
+                <div data-aos="zoom-in" data-aos-duration="600" class="data__item">
                     <div class="data__block data__block_right"></div>
                     <div class="data__title data__title_right">Облачное хранилище</div>
                     <div class="data__descr data__descr_right">Это выделенное пользователю пространство на жестком диске
                         сервера,
                         находящегося в Интернете.</div>
                 </div>
-                <div class="data__item">
+                <div data-aos="zoom-in" data-aos-duration="600" class="data__item">
                     <div class="data__block"></div>
                     <div class="data__title">Размещение не сервере</div>
                     <div class="data__descr">Услуга аренды пространства в центре обработки данных (колокация серверов)
@@ -322,10 +336,12 @@
 
     <section class="consultation">
         <div class="container">
-            <div class="consultation__img"><img src="./img/contacts.png" alt=""></div>
-            <h2 class="title title_black">Приступить очень просто! <br>
+            <div data-aos="zoom-in" data-aos-duration="600" class="consultation__img"><img src="./img/contacts.png"
+                    alt=""></div>
+            <h2 data-aos="zoom-in" data-aos-duration="600" class="title title_black">Приступить очень просто! <br>
                 Нужно получить доступ и начать работу!</h2>
-            <button class="button button_consultation">связаться с нами</button>
+            <button data-aos="zoom-in" data-aos-duration="600" class="button button_consultation">связаться с
+                нами</button>
         </div>
     </section>
     <footer class="footer">
@@ -391,7 +407,8 @@
                         <ul class="footer__menu">
                             <li class="footer__menu_items"><a href="#" class="footer__menu_links">История</a>
                             </li>
-                            <li class="footer__menu_items"><a href="#" class="footer__menu_links">Наши отношения</a></li>
+                            <li class="footer__menu_items"><a href="#" class="footer__menu_links">Наши отношения</a>
+                            </li>
                             <li class="footer__menu_items"><a href="#" class="footer__menu_links">Команда</a></li>
                             <li class="footer__menu_items"><a href="#" class="footer__menu_links">Контакты</a></li>
                         </ul>
@@ -403,9 +420,13 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"></script>
+    <a href="#up" class="pageup pageup_animation"> <img src="./icons/arrow_up.svg" alt="up"></a>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/wow.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/script.js"></script>
 </body>

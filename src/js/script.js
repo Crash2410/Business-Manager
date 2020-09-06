@@ -64,7 +64,38 @@ $(document).ready(function () {
       },
     ],
   });
+
+  // Scroll UP
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 1000) {
+      $(".pageup").fadeIn();
+    } else {
+      $(".pageup").fadeOut();
+    }
+  });
+
+  // SlowScrolling
+
+  function slowScrolling(item) {
+    $(`a[href=${item}]`).click(function () {
+      const _href = $(this).attr("href");
+      $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+      return false;
+    });
+  }
+
+  slowScrolling("#up");
+
+  // animate AOS.JS
+
+  AOS.init();
+
+  // Anim WOW.JS
+  new WOW().init();
 });
+
+// Phone menu
 
 window.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".menu"),

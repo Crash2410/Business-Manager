@@ -12,8 +12,8 @@
     margin: 128px auto 0 auto;
   }
 
-  &__wrapper > div{
-    &:nth-child(2){
+  &__wrapper > div {
+    &:nth-child(2) {
       margin-left: 165px;
     }
   }
@@ -29,6 +29,7 @@
     font-weight: 900;
     text-transform: uppercase;
     color: #ffffff;
+    z-index: 1;
 
     &_right {
       text-align: right;
