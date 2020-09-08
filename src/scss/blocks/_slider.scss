@@ -49,6 +49,46 @@
     background: rgba($color: white, $alpha: 0);
     outline: none;
     z-index: 1;
+
+    &:active {
+      .arrow {
+        &_left {
+          &::before,
+          &:after {
+            top: 1px;
+            left: 1px;
+            box-shadow: 0 0 0 30px white inset;
+          }
+        }
+        &_right {
+          &::before,
+          &:after {
+            top: 1px;
+            left: 1px;
+            box-shadow: 0 0 0 30px white inset;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      .arrow {
+        &_left {
+          &::before,
+          &:after {
+            position: relative;
+            box-shadow: 0 0 0 30px white inset, 1px 1px 10px white;
+          }
+        }
+        &_right {
+          &::before,
+          &:after {
+            position: relative;
+            box-shadow: 0 0 0 30px white inset, 1px 1px 10px white;
+          }
+        }
+      }
+    }
   }
 
   .slick-next {
@@ -112,10 +152,9 @@
     margin: 0 auto;
     margin-top: 44px;
 
-    img{
+    img {
       width: 100%;
     }
-
 
     .slick-slide {
       display: block;
@@ -132,6 +171,50 @@
       background: rgba($color: white, $alpha: 0);
       outline: none;
       z-index: 1;
+
+      &:active {
+        .arrow {
+          &__solutions {
+            &_left {
+              &::before,
+              &:after {
+                top: 1px;
+                left: 1px;
+                box-shadow: 0 0 0 30px #11b9e1 inset;
+              }
+            }
+            &_right {
+              &::before,
+              &:after {
+                top: 1px;
+                left: 1px;
+                box-shadow: 0 0 0 30px #11b9e1 inset;
+              }
+            }
+          }
+        }
+      }
+
+      &:hover {
+        .arrow {
+          &__solutions {
+            &_left {
+              &::before,
+              &:after {
+                position: relative;
+                box-shadow: 0 0 0 30px #11b9e1 inset, 1px 1px 10px #11b9e1;
+              }
+            }
+            &_right {
+              &::before,
+              &:after {
+                position: relative;
+                box-shadow: 0 0 0 30px #11b9e1 inset, 1px 1px 10px #11b9e1;
+              }
+            }
+          }
+        }
+      }
     }
 
     .slick-next {
@@ -148,7 +231,7 @@
       margin: 0px;
       list-style: none;
       text-align: center;
-  
+
       li {
         position: relative;
         display: inline-block;
@@ -156,13 +239,13 @@
         height: 11px;
         margin: 0 5px;
         padding: 0;
-  
+
         button {
           font-size: 0;
           border: 0;
           outline: none;
           background: transparent;
-  
+
           &::before {
             content: "•";
             font-size: 40px;
@@ -179,7 +262,7 @@
           }
         }
       }
-  
+
       .slick-active {
         button {
           &::before {
